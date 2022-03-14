@@ -8,7 +8,7 @@ import java.util.*;
 /**
  * 동시성 문제가 고려되어 있지 않음, 원래는 ConcurrentHashMap, AtomicLong 사용을 고려해야함
  */
-@Repository
+//@Repository
 public class MemoryMemberRepository implements MemberRepository {
 
     private static Map<Long, Member> store = new HashMap<>();
